@@ -8,6 +8,7 @@ const video = document.querySelector("#videos");
 const url = 'https://api.openweathermap.org/data/2.5/';
 const key = 'a8e53279fc6acccd746074f6d34da4e4';
 
+
 const videoDecider = {
     "clear sky" : "sun.mp4",
     "overcast clouds" : "cloud.mp4",
@@ -18,7 +19,8 @@ const videoDecider = {
     "light rain" : "rain.mp4",
     "light intensity shower rain" : "rain.mp4",
     "moderate rain" : "rain.mp4",
-    "thunderstorm" : "thunderstrom.mp4"
+    "thunderstorm" : "thunderstrom.mp4",
+    "light intensity drizzle" : "rain.mp4"
 }
 
 const setQuery = (e) =>{

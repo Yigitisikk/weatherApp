@@ -17,7 +17,8 @@ const videoDecider = {
     "haze" : "haze.mp4",
     "light rain" : "rain.mp4",
     "light intensity shower rain" : "rain.mp4",
-    "moderate rain" : "rain.mp4"
+    "moderate rain" : "rain.mp4",
+    "thunderstorm" : "thunderstrom.mp4"
 }
 
 const setQuery = (e) =>{
